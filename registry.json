@@ -1,0 +1,8 @@
+{
+  "name": "liapf-icons",
+  "description": "Okalit Component: Icons for Liapf",
+  "tag": "liapf-icons",
+  "files": ["liapf-icons.js", "liapf-icons.css"],
+  "channels": [],
+  "dependencies": []
+}
