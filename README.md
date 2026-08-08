@@ -5,7 +5,7 @@ Okalit Component: Icons for Liapf
 ## Installation
 
 ```bash
-okalit add liapf-icons --registry github.com/your-org/your-catalog
+npx @okalit/cli add liapf-icons --registry github.com/LIAPF-Team/liapf-icons
 ```
 
 Or manually copy to your project:
