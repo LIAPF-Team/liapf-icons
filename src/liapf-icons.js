@@ -175,7 +175,7 @@ export class LiapfIcons extends Okalit {
     const strokeColor = {
       primary: 'var(--primary-color, rgb(87, 164, 169))',
       secondary: 'var(--secondary-color, rgb(255, 111, 145))',
-      warning: 'var(--warning-color, rgb(255, 204, 0)))',
+      warning: 'var(--warning-color, rgb(255, 204, 0))',
       black: 'var(--black-color, rgb(15, 15, 15))',
       text: 'var(--color-text, rgb(255, 255, 255))',
       grey: 'var(--grey-color, rgb(19, 19, 19))',
