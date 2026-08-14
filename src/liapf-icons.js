@@ -158,6 +158,32 @@ const ICONS = {
     <circle cx="8.5" cy="8.5" r="1.5"></circle>
     <polyline points="21 15 16 10 5 21"></polyline>
   `,
+  plusCircle: svg`
+    <path
+    fill="currentColor"
+    fill-rule="evenodd"
+    d="
+      M12 2
+      A10 10 0 1 1 12 22
+      A10 10 0 1 1 12 2
+      Z
+
+      M10 7
+      H14
+      V10
+      H17
+      V14
+      H14
+      V17
+      H10
+      V14
+      H7
+      V10
+      H10
+      Z
+    "
+    ></path>
+  `,
 };
 
 @defineElement({
@@ -165,8 +191,8 @@ const ICONS = {
   styles: [styles],
   props: [
     { icon: { type: String, value: 'document' } },
-    { color: { type: String, value: 'text' }},
-    { size: { type: String, value: '24' }}
+    { color: { type: String, value: 'text' } },
+    { size: { type: String, value: '24' } }
   ],
 })
 export class LiapfIcons extends Okalit {
