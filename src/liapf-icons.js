@@ -160,29 +160,11 @@ const ICONS = {
   `,
   plusCircle: svg`
     <path
-    fill="currentColor"
-    fill-rule="evenodd"
-    d="
-      M12 2
-      A10 10 0 1 1 12 22
-      A10 10 0 1 1 12 2
-      Z
-
-      M10 7
-      H14
-      V10
-      H17
-      V14
-      H14
-      V17
-      H10
-      V14
-      H7
-      V10
-      H10
-      Z
-    "
-    ></path>
+      fill="currentColor"
+      stroke="none"
+      fill-rule="evenodd"
+      d="M 12 2 A 10 10 0 1 1 12 22 A 10 10 0 1 1 12 2 Z M 11 7 h 2 v 4 h 4 v 2 h -4 v 4 h -2 v -4 h -4 v -2 h 4 Z"
+    />
   `,
 };
 
@@ -216,6 +198,7 @@ export class LiapfIcons extends Okalit {
         viewBox="0 0 24 24"
         fill="none"
         stroke=${strokeColor}
+        style="color: ${strokeColor}"
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
